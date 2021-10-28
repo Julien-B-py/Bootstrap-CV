@@ -121,7 +121,12 @@ hr
 
 #title
 {
-    background-color: #99ccff;
+
+text-shadow: #084b8d 1px 0 10px;
+
+background-image: url("../2.png");
+ background-position: center;
+
 
 }
 
@@ -134,11 +139,20 @@ hr
 
 
 
+.contact-solo {
+    margin: 10px 0;
+}
+
+
 
 #contact
 {
     color: #656565;
     padding: 3% 0;
+
+    max-width: 1000px;
+  margin: 0 auto 100px;
+
 
 }
 
@@ -460,6 +474,16 @@ h4 {
 }
 
 
+
+.contact-solo {
+    display:flex;
+    justify-content : center;
+    align-items: center;
+
+}
+
+
+
 /* -------------------- */
 
 
@@ -473,4 +497,14 @@ h4 {
     font-size:2.5rem;
   }
 
+}
+
+
+
+@media screen and (max-width: 991px) {
+    .contact-solo {
+        justify-content : left;
+        padding-left: 100px;
+
+    }
 }
