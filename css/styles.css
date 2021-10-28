@@ -147,7 +147,7 @@ background-image: url("../2.png");
 
 #contact
 {
-    color: #656565;
+    color: #212529;
     padding: 3% 0;
 
     max-width: 1000px;
@@ -277,7 +277,7 @@ background-color: #99ccff;
 .mail-part
 {
 text-decoration: none;
-color: #656565;
+color: #212529;
 }
 
 .mail-part:hover
