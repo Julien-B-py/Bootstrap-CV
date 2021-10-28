@@ -1,6 +1,8 @@
 
 
-
+h3 {
+    font-size: 1.25rem;
+}
 
 
 body {
@@ -101,10 +103,11 @@ hr
 
 .my-name
 {
-    font-size: 3.5rem;
+    font-size:2.5rem;
     line-height: 1.5;
     font-weight: 900;
     color: #ffffff;
+    margin-bottom:1.5rem;
 }
 
 
@@ -222,6 +225,7 @@ background-color: #99ccff;
 .resume
 {
     color: #ffffff;
+
 
 }
 
@@ -414,9 +418,59 @@ h4 {
 .footer-link:hover
 {
     color:#fff;
+
+
 }
+
+
+
+
+
+
+.avatar {
+
+
+    height:200px;
+    border-radius:50%;
+
+    margin-bottom:3rem;
+    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+
+}
+
+
+
+.introduction {
+    text-align:center;
+    width:65%;
+    margin: 100px auto;
+    padding-bottom:150px;
+
+
+}
+
+
+.intro-texts {
+
+
+}
+
+.avatar-container {
+
+}
+
 
 /* -------------------- */
 
 
 
+@media (max-width: 1024px) {
+  .carousel-item img {
+    display:none;
+  }
+
+  .my-name {
+    font-size:2.5rem;
+  }
+
+}
