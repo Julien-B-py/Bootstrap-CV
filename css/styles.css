@@ -6,9 +6,8 @@ h3 {
 
 
 body {
-    font-size: 14px;
     font-family: 'Montserrat-Black', sans-serif;
-
+    font-size: 14px;
 }
 
 
@@ -32,10 +31,10 @@ body {
 
 .custom-toggler .navbar-toggler-icon {
 
-            background-image: url(
+    background-image: url(
 "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 
-        }
+}
 
 .navbar-brand
 {
@@ -88,6 +87,21 @@ body {
     padding-right:5px !important;
 }
 
+
+
+.navbar {
+    background-color:#99ccff;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: #8ab8e5;
+    box-shadow: 0 0 5px 2px #91c2f2;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    z-index:100;
+}
+
+
 /* NAVBAR END */
 
 
@@ -126,6 +140,7 @@ text-shadow: #084b8d 1px 0 10px;
 
 background-image: url("../2.png");
  background-position: center;
+ padding-top: 50px;
 
 
 }
@@ -134,7 +149,7 @@ background-image: url("../2.png");
 {
     color: #ffffff;
     background-color: #99ccff;
-/*    padding: 7% 15%*/
+
 padding: 50px 0;
 }
 
@@ -154,7 +169,7 @@ padding: 50px 0;
 #contact
 {
     color: #212529;
-    padding: 3% 0;
+    padding: 6% 0 3%;
 
     max-width: 1000px;
   margin: 0 auto 100px;
@@ -174,7 +189,7 @@ padding: 50px 0;
 /* SKILLS */
 #competences
 {
-/*padding:50px;*/
+
 background-color: #99ccff;
 
 }
@@ -189,14 +204,12 @@ background-color: #99ccff;
 max-width: 1140px;
 padding-top:100px !important;
 padding-bottom:100px !important;
-    /*max-width: 960px;*/
-    /*max-width: 1500px;*/
+
 }
 
 .skill-card
 {
-/*    min-width: 400px;
-    max-width: 400px;*/
+
     margin: 0 auto;
 }
 
@@ -433,7 +446,7 @@ margin: 0 auto;
         box-shadow: 0 0 10px 4px #cccccc;
             background-image: url("../249788.jpg");
  background-position: center;
-
+overflow:hidden;
 
 }
 
@@ -445,6 +458,8 @@ margin: 0 auto;
     width:50%;
     display:flex;
     align-items: center;
+
+
 
 }
 
@@ -471,12 +486,10 @@ margin: 0 auto;
 {
     padding: 7% 15%;
     text-align:center;
-/*    font-size: 0.85rem;*/
-    /*color: #656565;*/
+
     color:#fff;
     background-color: #99ccff;
-    /*line-height: 1.7;*/
-    /*font-weight: 400;*/
+
 }
 
 .footer-icon
@@ -518,21 +531,15 @@ margin: 0 auto;
 .introduction {
     text-align:center;
     width:65%;
-    margin: 100px auto;
+    margin: 100px auto 50px;
     padding-bottom:150px;
+    margin-top: 85px;
 
 
 }
 
 
-.intro-texts {
 
-
-}
-
-.avatar-container {
-
-}
 
 
 
@@ -550,13 +557,13 @@ margin: 0 auto;
 
 
 @media (max-width: 1024px) {
-  .carousel-item img {
-    display:none;
-  }
+    .carousel-item img {
+        display:none;
+    }
 
-  .my-name {
-    font-size:2.5rem;
-  }
+    .my-name {
+        font-size:2.5rem;
+    }
 
 }
 
