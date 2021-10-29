@@ -135,6 +135,7 @@ background-image: url("../2.png");
     color: #ffffff;
     background-color: #99ccff;
 /*    padding: 7% 15%*/
+padding: 50px 0;
 }
 
 
@@ -186,6 +187,8 @@ background-color: #99ccff;
 .skill-container
 {
 max-width: 1140px;
+padding-top:100px !important;
+padding-bottom:100px !important;
     /*max-width: 960px;*/
     /*max-width: 1500px;*/
 }
