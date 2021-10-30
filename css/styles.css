@@ -1,7 +1,18 @@
-
+hr
+{
+    border: none;
+    color:#ffffff;
+    margin-top:0;
+    opacity: 50%;
+    width:90%;
+}
 
 h3 {
     font-size: 1.25rem;
+}
+
+h4 {
+    font-size:1rem;
 }
 
 
@@ -11,7 +22,7 @@ body {
 }
 
 
-/* NAVBAR START */
+/* ------------------------------------------------ NAVBAR ---------------------------------------------------------- */
 
 .navbar-toggler {
 
@@ -102,18 +113,9 @@ body {
 }
 
 
-/* NAVBAR END */
 
 
-
-hr
-{
-    border: none;
-    color:#ffffff;
-    margin-top:0;
-    opacity: 50%;
-    width:90%;
-}
+/* ------------------------------------------------ INTRO ----------------------------------------------------------- */
 
 .my-name
 {
@@ -125,14 +127,6 @@ hr
 }
 
 
-.carousel-item
-
-{
-
-    padding: 7% 15%;
-}
-
-
 #title
 {
 
@@ -141,8 +135,105 @@ hr
     padding-top: 50px;
     text-shadow: #084b8d 1px 0 10px;
 
+}
+
+.avatar {
+
+    border-radius:50%;
+    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    height:200px;
+    margin-bottom:3rem;
 
 }
+
+
+.introduction {
+
+    margin: 85px auto 50px;
+    padding-bottom:150px;
+    text-align:center;
+    width:65%;
+
+}
+
+.resume
+{
+    color: #ffffff;
+
+}
+
+
+
+/* ------------------------------------------------ CONTACT --------------------------------------------------------- */
+
+
+
+.contact-solo {
+
+    align-items: center;
+    display:flex;
+    justify-content : center;
+    margin: 10px 0;
+}
+
+
+#contact
+{
+    color: #212529;
+    margin: 0 auto 100px;
+    max-width: 1000px;
+    padding: 6% 0 3%;
+
+}
+
+.mail-part
+{
+text-decoration: none;
+color: #212529;
+}
+
+.mail-part:hover
+{
+color: #007bff;
+}
+
+
+.icon-container {
+    background-color: #99ccff;
+    border-radius: 50%;
+    color: white;
+    display: inline-block;
+    height: 70px;
+    margin-bottom:5px;
+    margin-right: 30px;
+    margin-top:5px;
+    width: 70px;
+}
+
+.icon-container:hover {
+    background-color : #568dc0;
+}
+
+.icon-container-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+
+
+/* ------------------------------------------------ EXPERIENCES ----------------------------------------------------- */
+
+
+.carousel-item
+
+{
+
+    padding: 7% 15%;
+}
+
+
 
 #experiences
 {
@@ -158,21 +249,7 @@ hr
 
 }
 
-.contact-solo {
-    margin: 10px 0;
-}
 
-
-
-#contact
-{
-    color: #212529;
-    margin: 0 auto 100px;
-    max-width: 1000px;
-    padding: 6% 0 3%;
-
-
-}
 
 .job-logo
 {
@@ -180,10 +257,34 @@ hr
     width: 20%;
 }
 
+.job-details
+{
+    padding-right:5%;
+}
+
+.job-title
+{
+    font-weight:700;
+    font-size:1.75rem;
+    margin-bottom: 15px;
+}
+
+.job-location
+{
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+
+.job-date
+{
+    text-transform: uppercase;
+
+}
 
 
 
-/* SKILLS */
+/* ---------------------------------------------------- SKILLS ------------------------------------------------------ */
 #competences
 {
 
@@ -260,95 +361,14 @@ padding-bottom:100px !important;
     text-align: center;
 }
 
-.resume
-{
-    color: #ffffff;
 
 
-}
-
-.city-name
-{
-    font-size: 1rem;
-}
-
-.job-details
-{
-    padding-right:5%;
-}
-
-.job-title
-{
-    font-weight:700;
-    font-size:1.75rem;
-    margin-bottom: 15px;
-}
-
-.job-location
-{
-    text-transform: uppercase;
-    margin-bottom: 1rem;
-}
-
-
-.job-date
-{
-    text-transform: uppercase;
-
-}
-
-
-.mail-part
-{
-text-decoration: none;
-color: #212529;
-}
-
-.mail-part:hover
-{
-color: #007bff;
-}
-
-
-.icon-container {
-    background-color: #99ccff;
-    border-radius: 50%;
-    color: white;
-    display: inline-block;
-    height: 70px;
-    margin-bottom:5px;
-    margin-right: 30px;
-    margin-top:5px;
-    width: 70px;
-}
-
-.icon-container:hover {
-    background-color : #568dc0;
-}
-
-.icon-container-inner {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-}
-
-
-
-h4 {
-    font-size:1rem;
-}
-
-
+/* --------------------------------------------------- FORMATION ---------------------------------------------------- */
 
 .container-fluid
 {
     padding: 3% 5%;
 }
-
-
-
-/* FORMATION */
 
 #formation {
     padding: 70px 0;
@@ -392,13 +412,13 @@ h4 {
 
 }
 
-.diplom-name
+.diploma-name
 {
     color: #007bff;
 
 }
 
-.diplom-year
+.diploma-year
 {
     margin-top: 0;
     margin-bottom: 1rem;
@@ -406,7 +426,7 @@ h4 {
 }
 
 
-.diplom-school
+.diploma-school
 {
     text-transform: uppercase;
     color: #656565;
@@ -415,13 +435,13 @@ h4 {
 }
 
 
-.diplom-fullname
+.diploma-fullname
 {
     margin-bottom: 0;
 
 }
 
-/* DIVERS */
+/* ---------------------------------------------------- DIVERS ------------------------------------------------------ */
 
 #divers
 {
@@ -429,43 +449,35 @@ h4 {
     padding:0 20px;
 }
 
-
-
 .divers-container {
-margin: 0 auto;
-        background-color: #eeeeee;
-        max-width:600px;
-        height:310px;
-        display:flex;
 
+        background-image: url("../images/bg2.jpg");
+        background-position: center;
         border-radius: 20px;
-
         box-shadow: 0 0 10px 4px #cccccc;
-            background-image: url("../images/bg2.jpg");
- background-position: center;
-overflow:hidden;
+        display:flex;
+        height:310px;
+        margin: 0 auto;
+        max-width:600px;
+        overflow:hidden;
 
 }
-
 
 .divers-container-left {
 
+    align-items: center;
     background:rgba(238, 238, 238, 0.9);
+    display:flex;
     height:100%;
     width:50%;
-    display:flex;
-    align-items: center;
-
-
 
 }
 
 
-
 .div-texts{
-        margin: 0 auto;
-        color:#212529;
-        font-size: 0.8rem;
+    color:#212529;
+    font-size: 0.8rem;
+    margin: 0 auto;
 }
 
 .div-texts h5 {
@@ -477,15 +489,14 @@ overflow:hidden;
     color:#007bff;
 }
 
-/* FOOTER */
+/* ---------------------------------------------------- FOOTER ------------------------------------------------------ */
 
 #footer
 {
+    background-color: #99ccff;
+    color:#fff;
     padding: 7% 15%;
     text-align:center;
-
-    color:#fff;
-    background-color: #99ccff;
 
 }
 
@@ -510,46 +521,7 @@ overflow:hidden;
 
 
 
-
-
-.avatar {
-
-
-    height:200px;
-    border-radius:50%;
-
-    margin-bottom:3rem;
-    border: 0.5rem solid rgba(255, 255, 255, 0.2);
-
-}
-
-
-
-.introduction {
-    text-align:center;
-    width:65%;
-    margin: 100px auto 50px;
-    padding-bottom:150px;
-    margin-top: 85px;
-
-
-}
-
-
-
-
-
-
-.contact-solo {
-    display:flex;
-    justify-content : center;
-    align-items: center;
-
-}
-
-
-
-/* -------------------- */
+/* ------------------------------------------------ MEDIA QUERIES --------------------------------------------------- */
 
 
 
