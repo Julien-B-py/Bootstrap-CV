@@ -166,7 +166,17 @@ body {
 
 /* ------------------------------------------------ CONTACT --------------------------------------------------------- */
 
+.contact-area {
+  width: max-content;
 
+}
+
+.contact-grp {
+  width: max-content;
+  margin:0 auto;
+  display: flex;
+flex-direction: column;
+}
 
 .contact-solo {
 
@@ -183,6 +193,7 @@ body {
     margin: 0 auto 100px;
     max-width: 1000px;
     padding: 6% 0 3%;
+
 
 }
 
@@ -538,10 +549,22 @@ padding-bottom:100px !important;
 
 
 
+@media screen and (min-width:990px) {
+  .contact-grp {
+    flex-direction: row;
+    gap:5rem;
+  }
+}
+
+
 @media screen and (max-width: 991px) {
     .contact-solo {
         justify-content : left;
-        padding-left: 100px;
+
 
     }
+
+
+
+
 }
