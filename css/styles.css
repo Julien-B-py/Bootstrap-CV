@@ -20,17 +20,17 @@ h4 {
 }
 
 .heading-container {
-  box-shadow: 5px 5px rgba(153, 204, 255, 0.5), 10px 10px rgba(153, 204, 255, .25);
+  box-shadow: 5px 5px rgba(14, 85, 156, 0.5), 10px 10px rgba(14, 85, 156, .25);
   width: max-content;
   padding: 0.25rem 0.75rem;
   margin-bottom: 2.5rem;
-  background-color: #99ccff;
+  background-color: #0E559C;
   color: #fff;
 }
 
 .heading-container-neg {
   background-color: #fff;
-  color: #99ccff;
+  color: #0E559C;
   box-shadow: 5px 5px rgba(255, 255, 255, 0.5), 10px 10px rgba(255, 255, 255, .25);
 }
 
@@ -41,15 +41,15 @@ body {
 
 /* ------------------------------------------------ NAVBAR ---------------------------------------------------------- */
 .navbar-toggler {
-  background: #b2d9ff;
+  background: #0161c1;
   border-color: white;
-  color: #b2d9ff;
+  color: #0161c1;
   margin-right: 10px;
 }
 
 .navbar-toggler:hover {
-  background: #80bfff;
-  color: #80bfff;
+  background: #016eda;
+  color: #016eda;
 }
 
 .custom-toggler .navbar-toggler-icon {
@@ -64,7 +64,7 @@ body {
 }
 
 .navbar-brand:hover {
-  color: #007bff;
+  color: #99ccff;
 }
 
 .nav-item {
@@ -81,7 +81,7 @@ body {
 }
 
 .navbar-nav li a:hover {
-  color: #007bff;
+  color: #99ccff;
 }
 
 .navbar-nav {
@@ -94,10 +94,10 @@ body {
 }
 
 .navbar {
-  background-color: #99ccff;
+  background-color: #0E559C;
   border-bottom-style: solid;
   border-bottom-width: 1px;
-  border-color: #8ab8e5;
+  border-color: #0261c0;
   position: fixed;
   /* Set the navbar to fixed position */
   top: 0;
@@ -163,7 +163,7 @@ body {
 
 #contact {
   color: #212529;
-  margin: 100px auto 100px;
+  margin: 6.25rem auto;
   max-width: 1000px;
   padding: 0 1rem;
   overflow: hidden;
@@ -179,7 +179,7 @@ body {
 }
 
 .icon-container {
-  background-color: #99ccff;
+  background-color: #0E559C;
   border-radius: 50%;
   color: white;
   display: inline-block;
@@ -191,7 +191,7 @@ body {
 }
 
 .icon-container:hover {
-  background-color: #568dc0;
+  background-color: #0261c0;
 }
 
 .icon-container-inner {
@@ -207,9 +207,9 @@ body {
 }
 
 #experiences {
-  background-color: #99ccff;
+  background-color: #0E559C;
   color: #ffffff;
-  padding: 50px 0;
+padding: 6.25rem 0;
 }
 
 #experiences .job-details {
@@ -248,7 +248,7 @@ body {
 
 /* ---------------------------------------------------- SKILLS ------------------------------------------------------ */
 #competences {
-  background-color: #99ccff;
+  background-color: #0E559C;
 }
 
 /* .skill-column {
@@ -418,9 +418,9 @@ body {
 
 /* ---------------------------------------------------- FOOTER ------------------------------------------------------ */
 #footer {
-  background-color: #99ccff;
+  background-color: #0E559C;
   color: #fff;
-  padding: 7% 15%;
+padding: 3rem 0;
   text-align: center;
 }
 
