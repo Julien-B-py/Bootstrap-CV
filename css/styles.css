@@ -14,6 +14,26 @@ h4 {
   font-size: 1rem;
 }
 
+.section-heading {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.heading-container {
+  box-shadow: 5px 5px rgba(153, 204, 255, 0.5), 10px 10px rgba(153, 204, 255, .25);
+  width: max-content;
+  padding: 0.25rem 0.75rem;
+  margin-bottom: 2.5rem;
+  background-color: #99ccff;
+  color: #fff;
+}
+
+.heading-container-neg {
+  background-color: #fff;
+  color: #99ccff;
+  box-shadow: 5px 5px rgba(255, 255, 255, 0.5), 10px 10px rgba(255, 255, 255, .25);
+}
+
 body {
   font-family: 'Montserrat-Black', sans-serif;
   font-size: 14px;
@@ -78,7 +98,6 @@ body {
   border-bottom-style: solid;
   border-bottom-width: 1px;
   border-color: #8ab8e5;
-
   position: fixed;
   /* Set the navbar to fixed position */
   top: 0;
@@ -99,10 +118,10 @@ body {
 
 #title {
   background-image: url("../images/bg1.png");
-  background-position: center;
+  background-position: 100% 60%;
   padding-top: 50px;
   text-shadow: #084b8d 1px 0 10px;
-  overflow:hidden;
+  overflow: hidden;
 }
 
 .avatar {
@@ -114,9 +133,9 @@ body {
 
 .introduction {
   margin: 85px auto 50px;
-  padding-bottom: 150px;
+  padding: 0 1rem 9rem;
   text-align: center;
-  width: 65%;
+  max-width: 1000px;
 }
 
 .resume {
@@ -146,8 +165,8 @@ body {
   color: #212529;
   margin: 100px auto 100px;
   max-width: 1000px;
-
-  overflow:hidden;
+  padding: 0 1rem;
+  overflow: hidden;
 }
 
 .mail-part {
@@ -197,6 +216,12 @@ body {
   text-shadow: 0px 0px 10px #094d91;
 }
 
+.experiences {
+  max-width: 1000px;
+  margin: auto;
+  padding: 0 1rem;
+}
+
 .job-logo {
   border-radius: 50%;
   width: 20%;
@@ -226,14 +251,12 @@ body {
   background-color: #99ccff;
 }
 
-.skill-column {
+/* .skill-column {
   padding: 3% 3%;
-}
-
+} */
 .skill-container {
-  max-width: 1140px;
-  padding-top: 100px !important;
-  padding-bottom: 100px !important;
+  max-width: 1000px;
+  padding: 6.25rem 1rem !important;
   overflow: hidden;
 }
 
@@ -249,6 +272,10 @@ body {
 
 .card-header {
   background-color: #dfebf7;
+}
+
+.skill-row {
+  --bs-gutter-y: 1.5rem;
 }
 
 .skills-list {
@@ -296,13 +323,14 @@ body {
 }
 
 .formation-container {
-  max-width: 1140px;
-    overflow: hidden;
+  max-width: 1000px;
+  overflow: hidden;
+  padding: 0 1rem;
 }
 
 .edu-card {
   border: 0;
-  box-shadow: 0 5px 25px 0 rgba(0, 0, 0, .2);
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .2);
   margin-bottom: 20px;
 }
 
@@ -348,9 +376,9 @@ body {
 
 /* ---------------------------------------------------- DIVERS ------------------------------------------------------ */
 #divers {
-  margin: 100px 0;
-  padding: 0 20px;
-
+  max-width: 1000px;
+  margin: 100px auto;
+  padding: 0 1rem;
 }
 
 .divers-container {
@@ -370,7 +398,7 @@ body {
   background: rgba(238, 238, 238, 0.9);
   display: flex;
   height: 100%;
-  width: 50%;
+  padding: 0 1rem;
 }
 
 .div-texts {
