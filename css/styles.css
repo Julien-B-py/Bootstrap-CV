@@ -142,6 +142,10 @@ body {
   color: #ffffff;
 }
 
+.resume p {
+  font-size: 1.25rem;
+}
+
 /* ------------------------------------------------ CONTACT --------------------------------------------------------- */
 .contact-area {
   width: max-content;
