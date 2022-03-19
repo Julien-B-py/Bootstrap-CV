@@ -117,11 +117,12 @@ body {
 }
 
 #title {
-  background-image: url("../images/bg1.png");
-  background-position: 100% 60%;
+  background-image: url("../images/bg1-min.png");
+  background-position: 65% 60%;
   padding-top: 50px;
   text-shadow: #084b8d 1px 0 10px;
   overflow: hidden;
+  min-height: 100vh;
 }
 
 .avatar {
@@ -167,9 +168,9 @@ body {
 
 #contact {
   color: #212529;
-  margin: 6.25rem auto;
+  margin: auto;
   max-width: 1000px;
-  padding: 0 1rem;
+  padding: 6.25rem 1rem;
   overflow: hidden;
 }
 
@@ -213,7 +214,7 @@ body {
 #experiences {
   background-color: #0E559C;
   color: #ffffff;
-padding: 6.25rem 0;
+  padding: 6.25rem 0;
 }
 
 #experiences .job-details {
@@ -386,7 +387,7 @@ padding: 6.25rem 0;
 }
 
 .divers-container {
-  background-image: url("../images/bg2.jpg");
+  background-image: url("../images/bg2-min.jpg");
   background-position: center;
   border-radius: 20px;
   box-shadow: 0 0 10px 4px #cccccc;
@@ -424,7 +425,7 @@ padding: 6.25rem 0;
 #footer {
   background-color: #0E559C;
   color: #fff;
-padding: 3rem 0;
+  padding: 3rem 0;
   text-align: center;
 }
 
